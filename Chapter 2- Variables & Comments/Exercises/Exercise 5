@@ -1,0 +1,15 @@
+# usb_sticks.py
+
+# Set the budget and the price of each USB stick
+budget = 50
+price_per_usb = 6
+
+# Calculate how many USB sticks she can buy
+num_usb_sticks = budget // price_per_usb
+
+# Calculate how much money she will have left
+money_left = budget % price_per_usb
+
+# Print the results
+print("She can buy {} USB sticks.".format(num_usb_sticks))
+print("She will have £{} left.".format(money_left))
