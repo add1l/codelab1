@@ -1,0 +1,8 @@
+# friends.py
+
+# Create a list of your friends' names
+names = ["Alice", "Bob", "Charlie", "David"]
+
+# Print each person's name
+for name in names:
+    print(name)
