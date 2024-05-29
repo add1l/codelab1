@@ -1,0 +1,8 @@
+# cars.py
+
+# Create a list of cars
+cars = ["Honda Civic", "Toyota Corolla", "Ford Mustang", "Chevrolet Camaro"]
+
+# Print a series of statements about the cars
+for car in cars:
+    print("I would like to own a {}.".format(car))
