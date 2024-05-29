@@ -1,0 +1,13 @@
+# message.py
+
+# Assign a message to a variable
+msg = "I love learning to use Python."
+
+# Print the message
+print(msg)
+
+# Change the value of the variable to a new message
+msg = "It's really satisfying!"
+
+# Print the new message
+print(msg)
