@@ -1,0 +1,44 @@
+# places.py
+
+# Create a list of places you would like to visit
+places = ["Paris, France", "Rome, Italy", "New York, USA", "Barcelona, Spain", "Bangkok, Thailand"]
+
+# Print the list in its original order
+print("Here is the list in its original order:")
+print(places)
+
+# Print the list in alphabetical order without modifying the actual list
+print("\nHere is the list in alphabetical order:")
+print(sorted(places))
+
+# Show that the list is still in its original order
+print("\nHere is the list in its original order again:")
+print(places)
+
+# Print the list in reverse alphabetical order without changing the order of the original list
+print("\nHere is the list in reverse alphabetical order:")
+print(sorted(places, reverse=True))
+
+# Show that the list is still in its original order
+print("\nHere is the list in its original order again:")
+print(places)
+
+# Change the order of the list
+places.reverse()
+print("\nHere is the list with its order reversed:")
+print(places)
+
+# Change the order of the list back to its original order
+places.reverse()
+print("\nHere is the list with its order changed back:")
+print(places)
+
+# Change the order of the list so it's stored in alphabetical order
+places.sort()
+print("\nHere is the list in alphabetical order:")
+print(places)
+
+# Change the order of the list so it's stored in reverse alphabetical order
+places.sort(reverse=True)
+print("\nHere is the list in reverse alphabetical order:")
+print(places)
