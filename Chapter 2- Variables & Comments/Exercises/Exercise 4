@@ -1,0 +1,10 @@
+# favorite_number.py
+
+# Assign your favorite number to a variable
+favorite_number = 42
+
+# Create a message that reveals your favorite number
+message = "My favorite number is {}.".format(favorite_number)
+
+# Print the message
+print(message)
