@@ -1,0 +1,19 @@
+# quote.py
+
+# Assign the quote and its author to variables
+quote = "A person who never made a mistake never tried anything new."
+author = "\t\nAlbert Einstein\t\n"
+
+# Print the original author name with whitespace
+print("Original author name:")
+print(author)
+
+# Print the author name using each of the three stripping functions
+print("\nAuthor name after stripping:")
+print("lstrip():", author.lstrip())
+print("rstrip():", author.rstrip())
+print("strip():", author.strip())
+
+# Print the quote and the author
+print("\n\"{}\"".format(quote))
+print("- {}".format(author.strip()))
