@@ -1,0 +1,11 @@
+# dinner.py
+
+# Create a list of people you would like to invite to dinner
+guests = ["Albert Einstein", "Marie Curie", "Leonardo da Vinci"]
+
+# Define the message to print
+message = "Hi {},\n\nI would like to invite you to dinner at my house this Saturday night.\n\nBest,\nYour Name"
+
+# Print a personalized message to each guest
+for guest in guests:
+    print(message.format(guest))
