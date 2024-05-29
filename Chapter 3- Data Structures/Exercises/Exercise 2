@@ -1,0 +1,11 @@
+# friends.py
+
+# Create a list of your friends' names
+names = ["Emily", "Fiona", "Grace", "Heidi"]
+
+# Define the message to print
+message = "Hi {},\n\nI hope you're having a great day!\n\nBest,\nYour Name"
+
+# Print a personalized message to each friend
+for name in names:
+    print(message.format(name))
