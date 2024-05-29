@@ -1,0 +1,10 @@
+pets = [
+    {'kind': 'dog', 'name': 'Fido'},
+    {'kind': 'cat', 'name': 'Whiskers'},
+    {'kind': 'bird', 'name': 'Polly'},
+    {'kind': 'fish', 'name': 'Bubbles'},
+    {'kind': 'hamster', 'name': 'Squeaky'}
+]
+
+for pet in pets:
+    print(f'The {pet["kind"]} is named {pet["name"]}.')
