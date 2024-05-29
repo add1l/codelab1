@@ -1,0 +1,9 @@
+# quote.py
+
+# Assign the quote and its author to variables
+quote = "A person who never made a mistake never tried anything new."
+author = "Albert Einstein"
+
+# Print the quote and the author
+print("\"" + quote + "\"")
+print("- " + author)
